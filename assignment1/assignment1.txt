@@ -1,0 +1,1840 @@
+Exercise 2
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> cd ~
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+Exercise 4
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> cd ~
+PS C:\Users\Greysen> mkdir temp
+
+
+    Directory: C:\Users\Greysen
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:18 PM                temp
+PS C:\Users\Greysen> mkdir temp/stuff
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:21 PM                stuff
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:22 PM                things
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/grape
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:23 PM                grape
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> cd ~
+PS C:\Users\Greysen> mkdir temp/stuff/a
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                a
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/b
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                b
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/c
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                c
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/alpha
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                alpha
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/beta
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:30 PM                beta
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things\gamma
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:30 PM                gamma
+
+
+PS C:\Users\Greysen> mkdir temp\stuff/things/orange/1
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:34 PM                1
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/2
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:34 PM                2
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/3
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:35 PM                3
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/juice
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:36 PM                juice
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/sauce
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:36 PM                sauce
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/orchard
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:37 PM                orchard
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/shape
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:38 PM                shape
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/cider
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:39 PM                cider
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/tree
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:39 PM                tree
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/grape/vine_fires
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:41 PM                vine_fires
+
+
+PS C:\Users\Greysen> mkdir temp/stuff/things/orange/apple/pear/grape/wine
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:41 PM                wine
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> cd ~
+PS C:\Users\Greysen> mkdir "I HAve Fun"
+
+
+    Directory: C:\Users\Greysen
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:43 PM                I HAve Fun
+
+
+PS C:\Users\Greysen> pwd
+
+Path
+----
+C:\Users\Greysen
+
+
+PS C:\Users\Greysen> cd ~
+Exercise 5:
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                stuff
+
+
+PS C:\Users\Greysen\temp> cd stuff
+PS C:\Users\Greysen\temp\stuff> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                a
+d-----        1/15/2020   8:28 PM                b
+d-----        1/15/2020   8:29 PM                c
+d-----        1/15/2020   8:30 PM                things
+
+
+PS C:\Users\Greysen\temp\stuff> cd things
+PS C:\Users\Greysen\temp\stuff\things> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                alpha
+d-----        1/15/2020   8:30 PM                beta
+d-----        1/15/2020   8:30 PM                gamma
+d-----        1/15/2020   8:35 PM                orange
+
+
+PS C:\Users\Greysen\temp\stuff\things> cd orange
+PS C:\Users\Greysen\temp\stuff\things\orange> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:34 PM                1
+d-----        1/15/2020   8:34 PM                2
+d-----        1/15/2020   8:35 PM                3
+d-----        1/15/2020   8:37 PM                apple
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange> cd apple
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:36 PM                juice
+d-----        1/15/2020   8:37 PM                orchard
+d-----        1/15/2020   8:39 PM                pear
+d-----        1/15/2020   8:36 PM                sauce
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> cd pear
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:39 PM                cider
+d-----        1/15/2020   8:41 PM                grape
+d-----        1/15/2020   8:38 PM                shape
+d-----        1/15/2020   8:39 PM                tree
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> cd grape
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:41 PM                vine_fires
+d-----        1/15/2020   8:41 PM                wine
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape> cd ..
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:39 PM                cider
+d-----        1/15/2020   8:41 PM                grape
+d-----        1/15/2020   8:38 PM                shape
+d-----        1/15/2020   8:39 PM                tree
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> cd ..
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:36 PM                juice
+d-----        1/15/2020   8:37 PM                orchard
+d-----        1/15/2020   8:39 PM                pear
+d-----        1/15/2020   8:36 PM                sauce
+
+
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> cd ../../..
+PS C:\Users\Greysen\temp\stuff> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                a
+d-----        1/15/2020   8:28 PM                b
+d-----        1/15/2020   8:29 PM                c
+d-----        1/15/2020   8:30 PM                things
+
+
+PS C:\Users\Greysen\temp\stuff> cd ..
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                stuff
+
+
+PS C:\Users\Greysen\temp> dir -R
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                stuff
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                a
+d-----        1/15/2020   8:28 PM                b
+d-----        1/15/2020   8:29 PM                c
+d-----        1/15/2020   8:30 PM                things
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                alpha
+d-----        1/15/2020   8:30 PM                beta
+d-----        1/15/2020   8:30 PM                gamma
+d-----        1/15/2020   8:35 PM                orange
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:34 PM                1
+d-----        1/15/2020   8:34 PM                2
+d-----        1/15/2020   8:35 PM                3
+d-----        1/15/2020   8:37 PM                apple
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:36 PM                juice
+d-----        1/15/2020   8:37 PM                orchard
+d-----        1/15/2020   8:39 PM                pear
+d-----        1/15/2020   8:36 PM                sauce
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:39 PM                cider
+d-----        1/15/2020   8:41 PM                grape
+d-----        1/15/2020   8:38 PM                shape
+d-----        1/15/2020   8:39 PM                tree
+
+
+    Directory: C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:41 PM                vine_fires
+d-----        1/15/2020   8:41 PM                wine
+
+
+PS C:\Users\Greysen\temp> cd ~
+PS C:\Users\Greysen> cd documents
+PS C:\Users\Greysen\documents> ls
+
+
+    Directory: C:\Users\Greysen\documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        11/7/2019  12:20 AM                alpha
+d-----         7/4/2018   9:37 AM                Audacity
+d-----        7/20/2017  11:49 PM                Custom Office Templates
+d-----         8/7/2018   8:02 PM                Eastern Washington
+                                                 University
+d-----       12/17/2018   4:29 PM                econ sort
+d-----        12/7/2018  10:22 AM                Economics
+d-----        1/15/2018   1:33 PM                FXHOME
+d-----         9/6/2017   8:13 PM                Mafia
+d-----        8/17/2017   6:21 PM                meme
+d-----         1/6/2018   8:11 PM                My Games
+d-----        10/5/2018   9:34 PM                MyTiData
+d-----         4/2/2019   4:44 PM                Python Scripts
+d-----        6/12/2019  12:30 AM                python_tutorial
+d-----        11/2/2018   4:48 PM                scc
+d-----        7/29/2017  10:15 PM                SCC Summer 17
+d-----        1/21/2018   7:51 PM                Scholar laureate Program
+d-----        1/13/2019   8:47 PM                TI-Nspire CX
+d-----       12/13/2018   3:30 PM                UW Grad School Admissions
+d-----         7/2/2018   9:37 PM                Wolfram CDF Player
+-a----       12/16/2018   1:03 AM        4699853 2018 Symposium Program
+                                                 Titles and Abstracts.pdf
+-a----       11/29/2018   5:34 PM          12298 A8.Development+and+Crashes.
+                                                 docx
+-a----        1/31/2019   8:44 PM          30720 Chapter 5 Quiz.doc
+-a----        1/17/2019  10:27 PM          30208 Chapter+3+Quiz.doc
+-a----        1/24/2019   9:09 PM          59253 Chapter+4+Quiz.pdf
+-a----        12/2/2018   9:49 PM         163424 Cheryl-Noble County
+                                                 Report.pdf
+-a----       12/13/2018   5:09 PM          41201 cv-wen-short-.pdf
+-a----         8/7/2017  10:33 PM         337035 Danae_Greysen_1B_Workshop_L
+                                                 ocations.pdf
+-a----       11/11/2018   3:14 PM          39181 Data Sets.xlsx
+-a----       11/11/2018   2:46 PM          58880 Description of DATA
+                                                 Sets.doc
+-a----       11/17/2018   9:38 PM          97437 dictator data.xlsx
+-a----         2/9/2018   6:13 PM          98085 DS11_Complete.pdf
+-a----        1/13/2019   8:45 PM          14638 Economics Made Easy
+                                                 Trial.tns
+-a----       10/22/2017   1:17 AM       16032750 Fishing 17-18.pdf
+-a----        12/2/2018   8:04 PM          19768 flow 2.jpg
+-a----        12/2/2018   8:04 PM          24475 flow1.jpg
+-a----        7/27/2017  11:51 PM          13689 Greysen Danae.docx
+-a----         2/6/2018   4:24 PM          11128 Household.xlsx
+-a----       11/11/2018  11:19 AM          18318 Hwk+4+F18.docx
+-a----        12/2/2018  11:43 AM          16164 Hwk+5+F18.docx
+-a----       12/12/2018   7:22 AM         199120 Ian_Drosos-app-statement.pd
+                                                 f
+-a----        12/7/2018   8:40 AM        6469518 Lord Huron - The World
+                                                 Ender.mp3
+-a----       11/28/2018   1:37 AM         288013 Math-307.pdf
+-a----        1/17/2019  10:42 PM        6382080 OPT18_4E.ppt
+-a----        5/27/2018   8:42 PM          14415 phone call.docx
+-a----        11/8/2018   6:42 PM         759283 section-23d.pdf
+-a----        11/8/2018   9:01 PM         596059 section-24a.pdf
+-a----        11/8/2018   9:04 PM        2587926 section-24b.pdf
+-a----       11/30/2018   3:52 AM        1140788 section-32a.pdf
+-a----       11/30/2018   3:43 AM        1468501 section-32b.pdf
+-a----       11/30/2018   3:52 AM        1686595 section-33a.pdf
+-a----        12/8/2019   5:59 PM           9377 shantell owed.xlsx
+-a----       12/17/2018   3:27 PM          35840 statement of purpose.doc
+-a----        11/7/2018   6:05 PM         218947 SymbolicMathGuide_Computing
+                                                 IndefIntegrals.pdf
+-a----        1/13/2019   4:02 PM      320313104 TINspireCXCASStudentSoftwar
+                                                 e-4.5.0.1180.exe
+-a----        2/12/2019   7:18 PM         157468 WSUGRAD_75938892_2019011016
+                                                 0137 (1).pdf
+-a----        1/13/2019   9:12 PM         157468 WSUGRAD_75938892_2019011016
+                                                 0137.pdf
+-a----       12/17/2018  12:29 PM         130937 xutan-cv-2016-jan.pdf
+PS C:\Users\Greysen\documents> cd ~
+Exercise 7
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                stuff
+
+
+PS C:\Users\Greysen\temp> cd stuff/things/orange/apple/pear/grape/
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape> cd ..
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> rmdir grape
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff\things\orange\apple\pear\grape has
+children and the Recurse parameter was not specified. If you continue, all
+children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):y
+PS C:\Users\Greysen\temp\stuff\things\orange\apple\pear> cd ..
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> rmdir pear
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff\things\orange\apple\pear has
+children and the Recurse parameter was not specified. If you continue, all
+children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp\stuff\things\orange\apple> cd ..
+PS C:\Users\Greysen\temp\stuff\things\orange> rmdir apple
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff\things\orange\apple has children and
+ the Recurse parameter was not specified. If you continue, all children will
+ be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp\stuff\things\orange> cd ..
+PS C:\Users\Greysen\temp\stuff\things> rmdir orange
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff\things\orange has children and the
+Recurse parameter was not specified. If you continue, all children will be
+removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp\stuff\things> cd ..
+PS C:\Users\Greysen\temp\stuff> ls
+
+
+    Directory: C:\Users\Greysen\temp\stuff
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:28 PM                a
+d-----        1/15/2020   8:28 PM                b
+d-----        1/15/2020   8:29 PM                c
+d-----        1/15/2020   8:30 PM                things
+
+
+PS C:\Users\Greysen\temp\stuff> rmdir things
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff\things has children and the Recurse
+parameter was not specified. If you continue, all children will be removed
+with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp\stuff> cd ..
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   8:29 PM                stuff
+
+
+PS C:\Users\Greysen\temp> rmdir stuff
+
+Confirm
+The item at C:\Users\Greysen\temp\stuff has children and the Recurse
+parameter was not specified. If you continue, all children will be removed
+with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp> pwd
+
+Path
+----
+C:\Users\Greysen\temp
+
+
+PS C:\Users\Greysen\temp> cd ..
+PS C:\Users\Greysen> mkdir do_more
+
+
+    Directory: C:\Users\Greysen
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:37 PM                do_more
+
+
+PS C:\Users\Greysen> mkdir 1
+
+
+    Directory: C:\Users\Greysen
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:37 PM                1
+
+
+PS C:\Users\Greysen> rmdir 1
+PS C:\Users\Greysen> cd do_more
+PS C:\Users\Greysen\do_more> mkdir 1
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:40 PM                1
+
+
+PS C:\Users\Greysen\do_more> mkdir 2
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:40 PM                2
+
+
+PS C:\Users\Greysen\do_more> mkdir 3
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:40 PM                3
+
+
+PS C:\Users\Greysen\do_more> mkdir 4
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:40 PM                4
+
+
+PS C:\Users\Greysen\do_more> mkdir 5
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                5
+
+
+PS C:\Users\Greysen\do_more> mkdir 6
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                6
+
+
+PS C:\Users\Greysen\do_more> mkdir7
+mkdir7 : The term 'mkdir7' is not recognized as the name of a cmdlet,
+function, script file, or operable program. Check the spelling of the name,
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ mkdir7
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (mkdir7:String) [], CommandNo
+   tFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Greysen\do_more> mkdir 7
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                7
+
+
+PS C:\Users\Greysen\do_more> mkdir 8
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                8
+
+
+PS C:\Users\Greysen\do_more> mkdir 9
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                9
+
+
+PS C:\Users\Greysen\do_more> mkdir 0
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                0
+
+
+PS C:\Users\Greysen\do_more> mkdir i
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:41 PM                i
+
+
+PS C:\Users\Greysen\do_more> mkdir ii
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                ii
+
+
+PS C:\Users\Greysen\do_more> mkdir iii
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                iii
+
+
+PS C:\Users\Greysen\do_more> mkdir iv
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                iv
+
+
+PS C:\Users\Greysen\do_more> mkdir v
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                v
+
+
+PS C:\Users\Greysen\do_more> mkdir vi
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                vi
+
+
+PS C:\Users\Greysen\do_more> mkdir vii
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                vii
+
+
+PS C:\Users\Greysen\do_more> mkdir viii
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                viii
+
+
+PS C:\Users\Greysen\do_more> mkdir ix
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                ix
+
+
+PS C:\Users\Greysen\do_more> mkdir x
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:42 PM                x
+
+
+PS C:\Users\Greysen\do_more> rmdir 1
+PS C:\Users\Greysen\do_more> rmdir 2
+PS C:\Users\Greysen\do_more> rmdir 3
+PS C:\Users\Greysen\do_more> rmdir 4
+PS C:\Users\Greysen\do_more> rmdir 5
+PS C:\Users\Greysen\do_more> rmdir 6
+PS C:\Users\Greysen\do_more> rmdir 7
+PS C:\Users\Greysen\do_more> rmdir 8
+PS C:\Users\Greysen\do_more> rmdir 9\
+PS C:\Users\Greysen\do_more> rmdir 0
+PS C:\Users\Greysen\do_more> rmdir x
+PS C:\Users\Greysen\do_more> rmdir ix
+PS C:\Users\Greysen\do_more> rmdir viii
+PS C:\Users\Greysen\do_more> rmdir vii
+PS C:\Users\Greysen\do_more> rmdir vi
+PS C:\Users\Greysen\do_more> rmdir v
+PS C:\Users\Greysen\do_more> rmdir iv
+PS C:\Users\Greysen\do_more> rmdir iii
+PS C:\Users\Greysen\do_more> rmdir ii
+PS C:\Users\Greysen\do_more> rmdir i
+PS C:\Users\Greysen\do_more> ls
+PS C:\Users\Greysen\do_more> mkdir 1/2/3/4/5/6/7/8/9/0
+
+
+    Directory: C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:46 PM                0
+
+
+PS C:\Users\Greysen\do_more> ls
+
+
+    Directory: C:\Users\Greysen\do_more
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020   9:46 PM                1
+
+
+PS C:\Users\Greysen\do_more> cd 0
+cd : Cannot find path 'C:\Users\Greysen\do_more\0' because it does not
+exist.
+At line:1 char:1
++ cd 0
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\do_more\0:S
+   tring) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Se
+   tLocationCommand
+
+PS C:\Users\Greysen\do_more> cd 1
+PS C:\Users\Greysen\do_more\1> cd 2
+PS C:\Users\Greysen\do_more\1\2> cd 3
+PS C:\Users\Greysen\do_more\1\2\3> cd 4
+PS C:\Users\Greysen\do_more\1\2\3\4> cd 5
+PS C:\Users\Greysen\do_more\1\2\3\4\5> cd 6
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6> cd 7
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7> cd 8
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8> cd 9
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9> cd 0
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9\0> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9> rmdir 0
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9> rmdir 9
+rmdir : Cannot find path 'C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9\9'
+because it does not exist.
+At line:1 char:1
++ rmdir 9
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greyse...3\4\5\6\7\
+   8\9\9:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Re
+   moveItemCommand
+
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8\9> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8> rmdir 9
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7\8> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7> rmdir 8
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6\7> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6> rmdir 7\
+PS C:\Users\Greysen\do_more\1\2\3\4\5\6> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4\5> rmdir 6
+PS C:\Users\Greysen\do_more\1\2\3\4\5> cd ..
+PS C:\Users\Greysen\do_more\1\2\3\4> rmdir 5
+PS C:\Users\Greysen\do_more\1\2\3\4> cd ..
+PS C:\Users\Greysen\do_more\1\2\3> rmdir 4
+PS C:\Users\Greysen\do_more\1\2\3> cd ..
+PS C:\Users\Greysen\do_more\1\2> rmdir 3
+PS C:\Users\Greysen\do_more\1\2> cd ..
+PS C:\Users\Greysen\do_more\1> rmdir 2
+PS C:\Users\Greysen\do_more\1> cd ..
+PS C:\Users\Greysen\do_more> rmdir 1
+PS C:\Users\Greysen\do_more> cd ..
+PS C:\Users\Greysen> rmdir do_more
+PS C:\Users\Greysen> cd ~
+Exercise 8
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> mkdir i/like/icecream
+
+
+    Directory: C:\Users\Greysen\temp\i\like
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:00 PM                icecream
+
+
+PS C:\Users\Greysen\temp> pushd i/like/icecream
+PS C:\Users\Greysen\temp\i\like\icecream> popd
+PS C:\Users\Greysen\temp> pwd
+
+Path
+----
+C:\Users\Greysen\temp
+
+
+PS C:\Users\Greysen\temp> pushd i/like
+PS C:\Users\Greysen\temp\i\like> pwd
+
+Path
+----
+C:\Users\Greysen\temp\i\like
+
+
+PS C:\Users\Greysen\temp\i\like> pushd icecream
+PS C:\Users\Greysen\temp\i\like\icecream> pwd
+
+Path
+----
+C:\Users\Greysen\temp\i\like\icecream
+
+
+PS C:\Users\Greysen\temp\i\like\icecream> popd
+PS C:\Users\Greysen\temp\i\like> pwd
+
+Path
+----
+C:\Users\Greysen\temp\i\like
+
+
+PS C:\Users\Greysen\temp\i\like> popd
+PS C:\Users\Greysen\temp> pwd
+
+Path
+----
+C:\Users\Greysen\temp
+
+
+PS C:\Users\Greysen\temp> rmdir i
+
+Confirm
+The item at C:\Users\Greysen\temp\i has children and the Recurse parameter
+was not specified. If you continue, all children will be removed with the
+item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+PS C:\Users\Greysen\temp> mkdir would/you/like/soup/or/salad
+
+
+    Directory: C:\Users\Greysen\temp\would\you\like\soup\or
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:05 PM                salad
+
+
+PS C:\Users\Greysen\temp> pushd would/you/like/soup
+PS C:\Users\Greysen\temp\would\you\like\soup> popd
+PS C:\Users\Greysen\temp> pushd would/you/like/
+PS C:\Users\Greysen\temp\would\you\like> popd
+PS C:\Users\Greysen\temp> rmdir would
+
+Confirm
+The item at C:\Users\Greysen\temp\would has children and the Recurse
+parameter was not specified. If you continue, all children will be removed
+with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):y
+
+Exercise 9
+PS C:\Users\Greysen\temp> cd ~
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> New-Item iamcool.txt -type file
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+
+
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+
+
+PS C:\Users\Greysen\temp> mkdir water
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:11 PM                water
+
+
+PS C:\Users\Greysen\temp> cd water
+PS C:\Users\Greysen\temp\water> New-Item isnotwet.txt -type file
+
+
+    Directory: C:\Users\Greysen\temp\water
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:12 PM              0 isnotwet.txt
+
+
+PS C:\Users\Greysen\temp\water> cd ..
+PS C:\Users\Greysen\temp> rmdir water
+
+Confirm
+The item at C:\Users\Greysen\temp\water has children and the Recurse
+parameter was not specified. If you continue, all children will be removed
+with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):y
+PS C:\Users\Greysen\temp> cd ~
+Exercise 10
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> cp iamcool.txt neat.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+
+
+PS C:\Users\Greysen\temp> cp neat.txt awesome.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+
+
+PS C:\Users\Greysen\temp> cp awesome.txt thefourthfile.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+
+
+PS C:\Users\Greysen\temp> mkdir something
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:17 PM                something
+
+
+PS C:\Users\Greysen\temp> cp awesome.txt something/
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:17 PM                something
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+
+
+PS C:\Users\Greysen\temp> ls something
+
+
+    Directory: C:\Users\Greysen\temp\something
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+
+
+PS C:\Users\Greysen\temp> cp -recurse something newplace
+PS C:\Users\Greysen\temp> ls newplace
+
+
+    Directory: C:\Users\Greysen\temp\newplace
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+
+
+PS C:\Users\Greysen\temp> cp temp/ desktop/
+cp : Cannot find path 'C:\Users\Greysen\temp\temp\' because it does not
+exist.
+At line:1 char:1
++ cp temp/ desktop/
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\temp\temp\:
+   String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Co
+   pyItemCommand
+
+PS C:\Users\Greysen\temp> cd ~
+PS C:\Users\Greysen> cp temp/ desktop/
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:17 PM                something
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+
+
+PS C:\Users\Greysen\temp> cp awesome.txt ../desktop/
+PS C:\Users\Greysen\temp>
+PS C:\Users\Greysen\temp> cd ~
+Exercise 11
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> mv awesome.txt uncool.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:17 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> mv newplace oldplace
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                oldplace
+d-----        1/15/2020  10:17 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> mv oldplace newplace
+PS C:\Users\Greysen\temp> ls newplace
+
+
+    Directory: C:\Users\Greysen\temp\newplace
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+
+
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:17 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> mv newplace/ something/
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> ls something
+
+
+    Directory: C:\Users\Greysen\temp\something
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+
+
+PS C:\Users\Greysen\temp> mv something/ temp/
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:35 PM                temp
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> mv temp/ something/
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> cd something
+PS C:\Users\Greysen\temp\something> ls
+
+
+    Directory: C:\Users\Greysen\temp\something
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+-a----        1/15/2020  10:10 PM              0 awesome.txt
+
+
+PS C:\Users\Greysen\temp\something> mv newplace/ ../
+PS C:\Users\Greysen\temp\something> cd temp
+cd : Cannot find path 'C:\Users\Greysen\temp\something\temp' because it
+does not exist.
+At line:1 char:1
++ cd temp
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\temp\someth
+   ing\temp:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Se
+   tLocationCommand
+
+PS C:\Users\Greysen\temp\something> cd ../
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+PS C:\Users\Greysen\temp> cd ~
+Exercise 12
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file nothing more, nothing less
+
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file nothing more, nothing less
+
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file nothing more, nothing less
+
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file nothing more, nothing less
+
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file nothing more, nothing less
+
+PS C:\Users\Greysen\temp> cd~
+cd~ : The term 'cd~' is not recognized as the name of a cmdlet, function,
+script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd~
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (cd~:String) [], CommandNotFo
+   undException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Greysen\temp> cd ~
+PS C:\Users\Greysen> cp desktop/test.txt temp/
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> more test.txt
+this is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing less
+
+PS C:\Users\Greysen\temp>  more awesome.txt
+Get-Content : Cannot find path 'C:\Users\Greysen\temp\awesome.txt' because
+it does not exist.
+At line:7 char:9
++         Get-Content $file | more.com
++         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\temp\awesom
+   e.txt:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Ge
+   tContentCommand
+
+
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  10:50 PM           4786 test.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> more neat.txt
+
+PS C:\Users\Greysen\temp> cd ~
+Exercise 13
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> more test2.txt
+this be a new test file
+
+PS C:\Users\Greysen\temp> cat test2.txt
+this be a new test file
+PS C:\Users\Greysen\temp> cat test.txt
+this is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing less
+PS C:\Users\Greysen\temp> cat poem
+cat : Cannot find path 'C:\Users\Greysen\temp\poem' because it does not
+exist.
+At line:1 char:1
++ cat poem
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\temp\poem:S
+   tring) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Ge
+   tContentCommand
+
+PS C:\Users\Greysen\temp> cat poem.txt
+oh lackaday and woe betide me
+my quandries number nine and ninety
+but blessed am I to have no worse conundrum
+for nary a strumpet lies among them
+PS C:\Users\Greysen\temp> more poem\
+Get-Content : Cannot find path 'C:\Users\Greysen\temp\poem\' because it
+does not exist.
+At line:7 char:9
++         Get-Content $file | more.com
++         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Greysen\temp\poem\:
+   String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.Ge
+   tContentCommand
+
+
+PS C:\Users\Greysen\temp> more poem.txt
+oh lackaday and woe betide me
+my quandries number nine and ninety
+but blessed am I to have no worse conundrum
+for nary a strumpet lies among them
+
+PS C:\Users\Greysen\temp> cat test.txt, test2.txt
+this is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing lessthis is a test file, nothing more nothing less
+this be a new test file
+PS C:\Users\Greysen\temp> cd ~
+Exercise 14
+PS C:\Users\Greysen> cd temp
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  11:10 PM            149 poem.txt
+-a----        1/15/2020  10:50 PM           4786 test.txt
+-a----        1/15/2020  11:03 PM             23 test2.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+-a----        1/15/2020  10:10 PM              0 uncool.txt
+
+
+PS C:\Users\Greysen\temp> rm uncool.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  10:10 PM              0 iamcool.txt
+-a----        1/15/2020  10:10 PM              0 neat.txt
+-a----        1/15/2020  11:10 PM            149 poem.txt
+-a----        1/15/2020  10:50 PM           4786 test.txt
+-a----        1/15/2020  11:03 PM             23 test2.txt
+-a----        1/15/2020  10:10 PM              0 thefourthfile.txt
+
+
+PS C:\Users\Greysen\temp> rm iamcool.txt
+PS C:\Users\Greysen\temp> rm neat.txt
+PS C:\Users\Greysen\temp> rm thefourthfile.txt
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/15/2020  10:18 PM                newplace
+d-----        1/15/2020  10:35 PM                something
+-a----        1/15/2020  11:10 PM            149 poem.txt
+-a----        1/15/2020  10:50 PM           4786 test.txt
+-a----        1/15/2020  11:03 PM             23 test2.txt
+
+
+PS C:\Users\Greysen\temp> cp -r something newplace
+PS C:\Users\Greysen\temp> rm something/awesome.txt
+PS C:\Users\Greysen\temp> rmdir something
+PS C:\Users\Greysen\temp> rm -r newplace
+PS C:\Users\Greysen\temp> ls
+
+
+    Directory: C:\Users\Greysen\temp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/15/2020  11:10 PM            149 poem.txt
+-a----        1/15/2020  10:50 PM           4786 test.txt
+-a----        1/15/2020  11:03 PM             23 test2.txt
+
+
+PS C:\Users\Greysen\temp> rm poem.txt
+PS C:\Users\Greysen\temp> -r test.txt
+-r : The term '-r' is not recognized as the name of a cmdlet, function,
+script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ -r test.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-r:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Greysen\temp> rm test.txt
+PS C:\Users\Greysen\temp> rm test2.txt
