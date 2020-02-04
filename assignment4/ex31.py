@@ -1,5 +1,5 @@
-print()
-print()
+print("Welcome to the strange trails textr adventure beta")
+print("This text adventure is unfinished, but I will get to it later.")
 
 print("""You are a hopeless romantic named Buck Vernon.
 
