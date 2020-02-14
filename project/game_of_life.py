@@ -1,90 +1,58 @@
 from sys import argv
 
+def first_grid(grid, locations):
 
-rows = 30
-columns = 80
+    for live in locations:
+        i, j = live.split(':')
+        grid[int(i)-1][int(j)-1] = 1
 
-def start_grid(rows, columns):
+def print_grid(grid, rows, cols):
+    for i in range(rows - 1):
+        for j in range(cols - 1):
+            if grid[i][j] == 1: print("X", end = "")
+            if grid[i][j] == 0: print("-", end = "")
+        print()
+    print()
 
-    grid = [rows, columns]
-    for row in range(rows):
-        grid_row = []
-        for cols in range(columns):
-            if grid_row == 0:
-                grid_row += [1]
-            else:
-                grid_row += [0]
+def active_grid(grid, rows, cols):
 
-        grid += [grid_row]
+    next_grid = [[0] * cols for i in range(rows)]
+    for i in range(rows - 1):
+        for j in range(cols - 1):
+            neighbor = int(grid[i - 1][j - 1]) + \
+            int(grid[i][j - 1]) + int(grid[i + 1][j - 1]) + int(grid[i - 1][j]) + \
+            int(grid[i + 1][j]) + int(grid[i - 1][j + 1]) + int(grid[i][j + 1]) + \
+            int(grid[i + 1][j + 1])
 
-    return grid
+            if grid[i][j] == 1 and neighbor < 2:
+                next_grid[i][j] = 0
+            elif grid[i][j] == 1 and (neighbor == 2 or neighbor == 3):
+                next_grid[i][j] = 1
+            elif grid[i][j] == 1 and neighbor > 3:
+                next_grid[i][j] = 0
+            elif grid[i][j] == 0 and neighbor == 3:
+                next_grid[i][j] = 1
 
-def print_grid(generation, rows, columns, grid):
+    return(next_grid)
 
-    for row in range(rows):
-        for cols in range(columns):
-            if grid[row][col] == 0:
-                str_out += '-'
-            else:
-                str_out += 'X'
-        str_out += "\n\r"
-
-    print(str_out, end=" ")
-
-def new_grid(rows, columns, grid, next_grid):
-#  dems da rules
-    for row in range(rows):
-        for cols in range(columns):
-
-            neigbor = live_neighbor(row, cols, rows, columns, grid)
-
-            if neighbor < 2 or neighbor > 3:
-                next_grid[row][cols] = 0
-
-            elif neighbor == 3 and grid[row][cols] == 0:
-                next_grid[row][cols] = 1
-
-            else:
-                next_grid[row][cols] = grid[row][cols]
-
-
-def neighbor_status(row, cols, rows, columns, grid):
-
-    life = 0
-
-    for i in range(-1, 2):
-        for j in range(-1, 2):
-            if not (i == 0 and j == 0):
-                life += grid[((row + i) % rows)][((cols + j) % columns)]
-    return life
-
-
-def move_grid(rows, columns, grid):
-
-    for row in range(rows):
-        for cols in range(columns):
-            if not (grid[rows][columns] == next_grid[rows][columns]):
-                return True
-    return False
 
 def main(argv):
 
-    rows = 30
-    columns = 80
-    generations = 50
+    script = argv[0]
+    ticks = int(argv[1])
+    locations = argv[2:]
+    rows = 31
+    cols = 81
+    grid = [[0] * cols for i in range(rows)]
+    tick = 0
 
-    grid = [rows, columns]
+    first_grid(grid, locations)
+    print_grid(grid, rows, cols)
 
-    current_gen = start_grid(rows, columns)
-    next_gen = start_grid(rows, columns)
+    while tick < ticks:
+        grid = active_grid(grid, rows, cols)
+        print_grid(grid, rows, cols)
+        tick += 1
 
-    gen = 1
-    for gen in range(1, generations + 1):
-        if not move_grid(rows, columns, grid):
-            break
-        print_grid(rows, columns, current_gen, next_gen)
-        current_gen, next_gen = next_gen, current_gen
-
-    print_grid(rows, columns, current_gen, gen)
-
-main(argv)
+if __name__ == "__main__":
+    main(argv)
