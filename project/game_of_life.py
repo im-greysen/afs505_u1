@@ -2,12 +2,17 @@
 
 .. module:: AFS505_U1 Project_01
     :platform: Windows
-    :synopsis: This is a Python3 script for Conway's Game of Life using a matrix with 30 rows
-    and 80 columns. This zero player game will run for the user-specified amount of ticks.
+    :synopsis: This is a Python3 script for Conway's Game of Life, a cellular automation program that implements
+    rules designed to mimic a cellular lifeform. Thi specific program achieves this goal by using a matrix with 30 rows
+    and 80 columns. This zero player game will run for the user-specified amount of ticks, ticks in this case refers. to the
+    number of generations
 
 .. moduleauthor:: Greysen W. Danae greysen.danae@wsu.edu
-.. modulereviewer:
+.. modulereviewer: Nicole Rouleau nicole.rouleau@wsu.edu
 """
+
+
+# reviewerscore: 100
 
 from sys import argv
 
